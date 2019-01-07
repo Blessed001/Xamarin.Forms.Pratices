@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XConcept1.Pages.MainPage"
+             BackgroundColor="{StaticResource BackgroundColor}"
+             Title="Школа Португальского">
+
+    
+        <!--<Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>-->
+        <ScrollView>
+        <StackLayout Spacing="10">
+            <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="princip"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="ГОВОРИ НА ПОРТУГАЛЬСКОМ УЖЕ С ПЕРВОГО ДНЯ ЗАНЯТИЙ " FontAttributes="Bold" FontSize="18" />
+                                <Span Text=" " />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Изучай португальский с местными и опытными преподавателями. "
+                  LineHeight="1.8" FontSize="18"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Мы гарантируем, что после курса вы сможете быть переводчиком, путешествовать и даже работать в португалоязычных странах. "
+                  LineHeight="1.8" FontSize="18"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    <!--</Grid>-->
+
+
+</ContentPage>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XConcept1.Pages.HomePage"
+             Title="Записаться на курсе">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="10">
+                <Entry x:Name="lastNameEntry"
+             Placeholder="Фамилия" />
+                <Entry x:Name="firstNameEntry"
+             Placeholder="Имя" />
+                <Entry x:Name="midleNameEntry"
+             Placeholder="Очество" />
+                <Entry x:Name="levelEntry"
+             Placeholder="Уровень" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="День: "
+               VerticalOptions="Center" />
+                <DatePicker x:Name="contractDateDatePicker"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center"/>
+                <Label Text="Актив: "
+               HorizontalOptions="End"
+               VerticalOptions="Center" />
+                <Switch x:Name="activeSwitch"
+                VerticalOptions="Center"
+                IsToggled="True" />
+            </StackLayout>
+            <Button x:Name="addButton"
+              Text="Записаться"
+              BackgroundColor="Navy"
+              TextColor="White" />
+             <Label Text="Вот кто уже записался!" />
+            <ListView x:Name="employeesListView"/>
+        </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

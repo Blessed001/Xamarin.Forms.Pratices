@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:XConcept1.Infrastructure;assembly=XConcept1"
+             x:Class="XConcept1.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- General colors -->
+            <Color x:Key="MainColor">#ff3b77</Color>
+            <Color x:Key="FontColor">#52656b</Color>
+            <Color x:Key="AccentColor1">#cdff00</Color>
+            <Color x:Key="AccentColor2">#b8b89f</Color>
+            <Color x:Key="BackgroundColor">#ffffff</Color>
+            <Color x:Key="RedColor">#ff0000</Color>
+            <Color x:Key="SucessColor">#28a745</Color> 
+            <!-- Menu colors -->
+            <Color x:Key="MenuColor">#52656b</Color>
+            <Color x:Key="MenuFontColor">#ffffff</Color>
+            <!--Page Level Resources: Compatible with Xamarin Live Player -->
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+            <!-- Locator -->
+            <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

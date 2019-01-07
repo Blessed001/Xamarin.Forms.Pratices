@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XConcept1.Pages.MethodPage"
+             BackgroundColor="{StaticResource BackgroundColor}"
+             Title="Методика">
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>-->
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="metodika"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="МЕТОДОЛОГИЯ" FontAttributes="Bold" FontSize="22" />
+                                <Span Text=" " />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Наша образовательная методика основана на коммуникативном подходе. Школа португальского языка способствует полной проработке навыков общения восприятия на слух, чтения и письма. С полным педагогическим методом и в соответствии с многочисленными успешными опытами, студенты имеют возможность узнать гораздо больше, чем просто язык. Благодаря передовым методам обучения учащиеся развивают личные, культурные и академические аспекты, а также лидерство и самомотивацию. Таким образом, они совершенствуются, преодолевая психологические барьеры во время обучения, получая способность к свободному самовыражению. "
+                  LineHeight="1.8" FontSize="18"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Наша методика не похожа на остальные, поскольку мы находим индивидупьный подход к каждому студенту в отдельности. "
+                  LineHeight="1.8" FontSize="18"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Студенты нашей школы могут быстро пройти квалификацию на рынке труда и должным образом подготовиться к двуязычной жизни. Исключительная методология преподавания, связанная с технологиями и преподавателями носителями языка, обеспечивает непрерывное и упрощенное обучение. "
+                  LineHeight="1.8" FontSize="18"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+        
+    <!--</Grid>-->
+</ContentPage>

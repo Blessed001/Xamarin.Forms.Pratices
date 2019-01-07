@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XConcept1.Pages.AboutPage"
+             BackgroundColor="{StaticResource BackgroundColor}"
+             Title="О нас">
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>-->
+    <ScrollView>
+        <StackLayout Spacing="10">
+            <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="about"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Школа португальского языка PORTUGUÊS-ABC, это единственный центр в Краснодаре, который специализируется именно на обучении португальского языка и культуры, в ней представлены различные формы и программы обучения, соответствующие всем методическим требованиям сегодняшнего дня, предъявляемым к обучению иностранному языку и отвечающим самым разнообразным потребностям и задачам в изучении португальского языка.  "
+                  LineHeight="1.8" FontSize="Default"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Одно из преимуществ нашей школы это возможность изучение португальского языка с носителем, более того все преподаватели так же владеют русским языком и могут более эффективно работать в совокупности. В процессе обучения в школе PORTUGUÊS-ABC используются новые разработки ведущих зарубежных методистов, авторские программы и собственные разработки наших преподавателей. "
+                  LineHeight="1.8" FontSize="Default" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+    <!--</Grid>-->
+</ContentPage>
